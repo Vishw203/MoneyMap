@@ -41,8 +41,8 @@ function formatDate() {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "abcx10542@gmail.com",
-    pass: "mtyo hqgs rvmp rpir",
+    user: process.env.Email_O,
+    pass: process.env.Pass_O,
   },
 });
 
